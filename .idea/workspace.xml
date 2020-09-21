@@ -19,21 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bd3eb36-dfbd-4733-9723-b9e2317e9486" name="Default Changelist" comment="renamed project to match folder name.">
-      <change afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/iridium-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/iridium-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/iridium-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/space-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+    <list default="true" id="7bd3eb36-dfbd-4733-9723-b9e2317e9486" name="Default Changelist" comment="Created login page, and added a navbar.">
+      <change afterPath="$PROJECT_DIR$/css/signup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/dbhandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/signup-helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="XAMPPP XDDDDDDD" />
   <component name="ProjectId" id="1h7fMi94DLkxU0h4B8vBkH6DYrQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,20 +60,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CS 230 Lab/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/cs230-lab/test.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="dbhandler.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/dbhandler.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="signup-helper.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/signup-helper.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.test.php" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -86,7 +106,9 @@
       <workItem from="1599367687278" duration="6231000" />
       <workItem from="1599376197270" duration="244000" />
       <workItem from="1599376449911" duration="534000" />
-      <workItem from="1599968391681" duration="7742000" />
+      <workItem from="1599968391681" duration="7843000" />
+      <workItem from="1600565714149" duration="1166000" />
+      <workItem from="1600576592171" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="renamed project to match folder name.">
       <created>1599376676674</created>
@@ -95,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599376676674</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created login page, and added a navbar.">
+      <created>1599977738012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599977738012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,9 +145,34 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="renamed project to match folder name." />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed project to match folder name." />
+    <MESSAGE value="Created login page, and added a navbar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created login page, and added a navbar." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="227" y="36" key="#CLI_Interpreters" timestamp="1600647176982">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="227" y="36" key="#CLI_Interpreters/0.23.1280.722@0.23.1280.722" timestamp="1600647176982" />
+    <state x="307" y="24" key="#PHP" timestamp="1600639118222">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="307" y="24" key="#PHP/0.23.1280.722@0.23.1280.722" timestamp="1600639118222" />
+    <state x="0" y="220" key="#SQL_Dialects" timestamp="1600654381526">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="0" y="220" key="#SQL_Dialects/0.23.1280.722@0.23.1280.722" timestamp="1600654381526" />
+    <state x="298" y="23" key="#SSH_Configurations" timestamp="1600639045258">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="298" y="23" key="#SSH_Configurations/0.23.1280.722@0.23.1280.722" timestamp="1600639045258" />
+    <state x="180" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600658875842">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="180" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.722@0.23.1280.722" timestamp="1600658875842" />
+    <state x="428" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600578549254">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="428" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.722@0.23.1280.722" timestamp="1600578549254" />
     <state x="500" y="291" key="Github.ShareDialog" timestamp="1599376236562">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
@@ -127,22 +181,22 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="435" y="23" width="393" height="722" key="Github.UntrackedFilesDialog/0.23.1280.722@0.23.1280.722" timestamp="1599376248593" />
-    <state width="1242" height="217" key="GridCell.Tab.0.bottom" timestamp="1599375718715">
+    <state width="1233" height="179" key="GridCell.Tab.0.bottom" timestamp="1600658342069">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1242" height="217" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1599375718715" />
-    <state width="1242" height="217" key="GridCell.Tab.0.center" timestamp="1599375718715">
+    <state width="1233" height="179" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1600658342069" />
+    <state width="1233" height="179" key="GridCell.Tab.0.center" timestamp="1600658342067">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1242" height="217" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1599375718715" />
-    <state width="1242" height="217" key="GridCell.Tab.0.left" timestamp="1599375718714">
+    <state width="1233" height="179" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1600658342067" />
+    <state width="1233" height="179" key="GridCell.Tab.0.left" timestamp="1600658342066">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1242" height="217" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1599375718714" />
-    <state width="1242" height="217" key="GridCell.Tab.0.right" timestamp="1599375718715">
+    <state width="1233" height="179" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1600658342066" />
+    <state width="1233" height="179" key="GridCell.Tab.0.right" timestamp="1600658342068">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1242" height="217" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1599375718715" />
+    <state width="1233" height="179" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1600658342068" />
     <state width="1242" height="217" key="GridCell.Tab.1.bottom" timestamp="1599375718716">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
@@ -191,17 +245,29 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state width="1242" height="217" key="GridCell.Tab.3.right/0.23.1280.722@0.23.1280.722" timestamp="1599375718718" />
-    <state x="134" y="23" key="SettingsEditor" timestamp="1599367667946">
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1600654831677">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="134" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1599367667946" />
-    <state x="231" y="119" key="Vcs.Push.Dialog.v2" timestamp="1599376680931">
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.23.1280.722@0.23.1280.722" timestamp="1600654831677" />
+    <state x="458" y="304" key="NewPhpFileDialog" timestamp="1600579605502">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="231" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1599376680931" />
+    <state x="458" y="304" key="NewPhpFileDialog/0.23.1280.722@0.23.1280.722" timestamp="1600579605502" />
+    <state x="102" y="23" key="SettingsEditor" timestamp="1600647186275">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="102" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1600647186275" />
+    <state x="231" y="119" key="Vcs.Push.Dialog.v2" timestamp="1599977759520">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="231" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1599977759520" />
     <state x="100" y="123" width="1063" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599973705539">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="100" y="123" width="1063" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.722@0.23.1280.722" timestamp="1599973705539" />
+    <state x="510" y="274" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600577848234">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="510" y="274" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1280.722@0.23.1280.722" timestamp="1600577848234" />
   </component>
 </project>

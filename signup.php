@@ -3,6 +3,7 @@ require "includes/header.php"
 ?>
 
 <main>
+    <link rel="stylesheet" href="css/signup.css">
     <div class="bg-cover">
         <div class="h-100 center-me">
             <div class="my-auto">
@@ -24,7 +25,7 @@ require "includes/header.php"
                     <button class="btn btn-md btn-secondary btn-block" name="signup-submit" type="submit">Register</button>
                     <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
                     <div class="text-center">
-                        Already a member? <a href="login.html">login</a>
+                        Already a member? <a href="login.php">login</a>
                     </div>
                 </form>
             </div>

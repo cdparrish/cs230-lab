@@ -19,16 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bd3eb36-dfbd-4733-9723-b9e2317e9486" name="Default Changelist" comment="Created login page, and added a navbar.">
-      <change afterPath="$PROJECT_DIR$/css/signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/dbhandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/signup-helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+    <list default="true" id="7bd3eb36-dfbd-4733-9723-b9e2317e9486" name="Default Changelist" comment="Completed Lab 3. Adde PHP signup page and SQL database.">
+      <change afterPath="$PROJECT_DIR$/html/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/claptrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/login-helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -109,6 +112,9 @@
       <workItem from="1599968391681" duration="7843000" />
       <workItem from="1600565714149" duration="1166000" />
       <workItem from="1600576592171" duration="1944000" />
+      <workItem from="1600659800452" duration="140000" />
+      <workItem from="1601159965847" duration="60000" />
+      <workItem from="1601184484567" duration="15972000" />
     </task>
     <task id="LOCAL-00001" summary="renamed project to match folder name.">
       <created>1599376676674</created>
@@ -124,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599977738012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed Lab 3. Adde PHP signup page and SQL database.">
+      <created>1600659912910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600659912911</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +159,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="renamed project to match folder name." />
     <MESSAGE value="Created login page, and added a navbar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created login page, and added a navbar." />
+    <MESSAGE value="Completed Lab 3. Adde PHP signup page and SQL database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Lab 3. Adde PHP signup page and SQL database." />
   </component>
   <component name="WindowStateProjectService">
     <state x="227" y="36" key="#CLI_Interpreters" timestamp="1600647176982">
@@ -181,22 +195,22 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="435" y="23" width="393" height="722" key="Github.UntrackedFilesDialog/0.23.1280.722@0.23.1280.722" timestamp="1599376248593" />
-    <state width="1233" height="179" key="GridCell.Tab.0.bottom" timestamp="1600658342069">
+    <state width="1233" height="120" key="GridCell.Tab.0.bottom" timestamp="1600659946394">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1233" height="179" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1600658342069" />
-    <state width="1233" height="179" key="GridCell.Tab.0.center" timestamp="1600658342067">
+    <state width="1233" height="120" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1600659946394" />
+    <state width="1233" height="120" key="GridCell.Tab.0.center" timestamp="1600659946393">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1233" height="179" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1600658342067" />
-    <state width="1233" height="179" key="GridCell.Tab.0.left" timestamp="1600658342066">
+    <state width="1233" height="120" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1600659946393" />
+    <state width="1233" height="120" key="GridCell.Tab.0.left" timestamp="1600659946393">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1233" height="179" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1600658342066" />
-    <state width="1233" height="179" key="GridCell.Tab.0.right" timestamp="1600658342068">
+    <state width="1233" height="120" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1600659946393" />
+    <state width="1233" height="120" key="GridCell.Tab.0.right" timestamp="1600659946394">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="1233" height="179" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1600658342068" />
+    <state width="1233" height="120" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1600659946394" />
     <state width="1242" height="217" key="GridCell.Tab.1.bottom" timestamp="1599375718716">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
@@ -245,22 +259,22 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state width="1242" height="217" key="GridCell.Tab.3.right/0.23.1280.722@0.23.1280.722" timestamp="1599375718718" />
-    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1600654831677">
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1601231584732">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state width="243" height="457" key="HiddenNamespacesPopup/0.23.1280.722@0.23.1280.722" timestamp="1600654831677" />
-    <state x="458" y="304" key="NewPhpFileDialog" timestamp="1600579605502">
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.23.1280.722@0.23.1280.722" timestamp="1601231584732" />
+    <state x="458" y="304" key="NewPhpFileDialog" timestamp="1601190828038">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="458" y="304" key="NewPhpFileDialog/0.23.1280.722@0.23.1280.722" timestamp="1600579605502" />
+    <state x="458" y="304" key="NewPhpFileDialog/0.23.1280.722@0.23.1280.722" timestamp="1601190828038" />
     <state x="102" y="23" key="SettingsEditor" timestamp="1600647186275">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="102" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1600647186275" />
-    <state x="231" y="119" key="Vcs.Push.Dialog.v2" timestamp="1599977759520">
+    <state x="231" y="119" key="Vcs.Push.Dialog.v2" timestamp="1600659928578">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="231" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1599977759520" />
+    <state x="231" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1600659928578" />
     <state x="100" y="123" width="1063" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599973705539">
       <screen x="0" y="23" width="1280" height="722" />
     </state>

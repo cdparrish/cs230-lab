@@ -19,23 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bd3eb36-dfbd-4733-9723-b9e2317e9486" name="Default Changelist" comment="Completed Lab 4. Added login/logout&#10;functionality and started a profile page.">
-      <change afterPath="$PROJECT_DIR$/includes/upload-helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prof_sample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/5f7abcb5c7b696.72296894.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/5f7abec3cabdc6.75214768.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/5f7ac04347f738.00638671.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/5f7ac0d9cfa057.07549819.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/5f7ac6b5f23556.67405667.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/5f7ac6c529b8a2.55363933.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/anon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/generic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/jg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/zoidberg.png" afterDir="false" />
+    <list default="true" id="7bd3eb36-dfbd-4733-9723-b9e2317e9486" name="Default Changelist" comment="Completed Lab 5. Created a basic profile page and avatar upload.">
+      <change afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/gallery-helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/upload-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/5f8163b3898ef3.11307993.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/5f8164dfd1a1c4.17908943.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/signup-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/signup-helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/upload-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/upload-helper.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +118,10 @@
       <workItem from="1601258709507" duration="33000" />
       <workItem from="1601415437409" duration="181000" />
       <workItem from="1601869916118" duration="8107000" />
+      <workItem from="1601882114116" duration="140000" />
+      <workItem from="1602287693088" duration="11083000" />
+      <workItem from="1602315948415" duration="71000" />
+      <workItem from="1602316021905" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="renamed project to match folder name.">
       <created>1599376676674</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601258694896</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed Lab 5. Created a basic profile page and avatar upload.">
+      <created>1601882229929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601882229929</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +182,8 @@
     <MESSAGE value="Created login page, and added a navbar." />
     <MESSAGE value="Completed Lab 3. Adde PHP signup page and SQL database." />
     <MESSAGE value="Completed Lab 4. Added login/logout&#10;functionality and started a profile page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Lab 4. Added login/logout&#10;functionality and started a profile page." />
+    <MESSAGE value="Completed Lab 5. Created a basic profile page and avatar upload." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Lab 5. Created a basic profile page and avatar upload." />
   </component>
   <component name="WindowStateProjectService">
     <state x="227" y="36" key="#CLI_Interpreters" timestamp="1600647176982">
@@ -200,10 +206,10 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="180" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.722@0.23.1280.722" timestamp="1600658875842" />
-    <state x="428" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600578549254">
+    <state x="428" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602289564110">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="428" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.722@0.23.1280.722" timestamp="1600578549254" />
+    <state x="428" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.722@0.23.1280.722" timestamp="1602289564110" />
     <state x="500" y="291" key="Github.ShareDialog" timestamp="1599376236562">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
@@ -288,10 +294,10 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="102" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1600647186275" />
-    <state x="215" y="119" key="Vcs.Push.Dialog.v2" timestamp="1601258731863">
+    <state x="215" y="119" key="Vcs.Push.Dialog.v2" timestamp="1601882245552">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="215" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1601258731863" />
+    <state x="215" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1601882245552" />
     <state x="100" y="123" width="1063" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599973705539">
       <screen x="0" y="23" width="1280" height="722" />
     </state>

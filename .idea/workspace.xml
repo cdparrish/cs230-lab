@@ -20,16 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bd3eb36-dfbd-4733-9723-b9e2317e9486" name="Default Changelist" comment="Completed Lab 5. Created a basic profile page and avatar upload.">
-      <change afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/gallery-helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/upload-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/5f8163b3898ef3.11307993.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/5f8164dfd1a1c4.17908943.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display-reviews.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/get-ratings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/review-helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/upload-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/upload-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +74,8 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -121,7 +123,8 @@
       <workItem from="1601882114116" duration="140000" />
       <workItem from="1602287693088" duration="11083000" />
       <workItem from="1602315948415" duration="71000" />
-      <workItem from="1602316021905" duration="346000" />
+      <workItem from="1602316021905" duration="742000" />
+      <workItem from="1603674653739" duration="11465000" />
     </task>
     <task id="LOCAL-00001" summary="renamed project to match folder name.">
       <created>1599376676674</created>
@@ -158,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601882229929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed lab 6. Created the start of a product gallery.">
+      <created>1602316726662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602316726662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +193,8 @@
     <MESSAGE value="Completed Lab 3. Adde PHP signup page and SQL database." />
     <MESSAGE value="Completed Lab 4. Added login/logout&#10;functionality and started a profile page." />
     <MESSAGE value="Completed Lab 5. Created a basic profile page and avatar upload." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Lab 5. Created a basic profile page and avatar upload." />
+    <MESSAGE value="Completed lab 6. Created the start of a product gallery." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed lab 6. Created the start of a product gallery." />
   </component>
   <component name="WindowStateProjectService">
     <state x="227" y="36" key="#CLI_Interpreters" timestamp="1600647176982">
@@ -294,10 +305,10 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="102" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1600647186275" />
-    <state x="215" y="119" key="Vcs.Push.Dialog.v2" timestamp="1601882245552">
+    <state x="215" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602316793440">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="215" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1601882245552" />
+    <state x="215" y="119" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1602316793440" />
     <state x="100" y="123" width="1063" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599973705539">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
@@ -306,5 +317,9 @@
       <screen x="0" y="23" width="1280" height="722" />
     </state>
     <state x="510" y="274" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1280.722@0.23.1280.722" timestamp="1600577848234" />
+    <state x="631" y="67" width="670" height="676" key="search.everywhere.popup" timestamp="1603747573649">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="631" y="67" width="670" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1603747573649" />
   </component>
 </project>

@@ -5,7 +5,7 @@ require 'includes/header.php';
 <main>
 <link rel="stylesheet" href="css/gallery.css">
     <div class="bg-cover">
-    <h1>Gallery</h1>
+    <h1>Marketplace</h1>
     <div class="gallery-container">
         <?php
         include_once 'includes/dbhandler.php';

@@ -46,9 +46,9 @@ require 'includes/header.php';
     <main>
         <div class="h-100 center-me text-center">
             <div class="my-auto">
-                <form action="../cs230-lab/includes/s3-upload-helper.php" method="POST" enctype="multipart/form-data">
+                <form action="/includes/s3-upload-helper.php" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
-                        <img src="../cs230-lab/uploads/claptrap.png" onclick="triggered();" id="s3-display">
+                        <img src="/uploads/claptrap.png" onclick="triggered();" id="s3-display">
                         <label for="s3-image" id="uname-style">S3 Upload</label>
                         <input type="file" name="s3-image" id="s3-image" onchange="preview(this)" class="form-control" style="display: none;">
                     </div>

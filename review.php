@@ -39,9 +39,9 @@ $(document).ready(function() {
     reset_star();
 
     // get reviews
-    xhr_getter('../cs230-lab/display-reviews.php?id=', "review_list");
+    xhr_getter('display-reviews.php?id=', "review_list");
     //avg();
-    xhr_getter('../cs230-lab/includes/get-ratings.php?id=', "testAvg");
+    xhr_getter('/includes/get-ratings.php?id=', "testAvg");
 
     if (localStorage.getItem('rating') != null) {
         setStars(parseInt(localStorage.getItem('rating')));

@@ -36,7 +36,7 @@ session_start();
                     <?php
                     if(isset($_SESSION['uid'])){
                         echo '<li class="nav-item">
-                        <a class="nav-link" href="profile.php">Logout</a>
+                        <a class="nav-link" href="profile.php">Profile</a>
                     </li>';
                         echo '<li class="nav-item">
                         <a class="nav-link" href="includes/logout.php">Logout</a>

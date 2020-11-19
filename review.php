@@ -1,4 +1,4 @@
-<?php 
+<?php
 require 'includes/dbhandler.php';
 require 'includes/header.php';
 require 'includes/review-helper.php';
@@ -6,9 +6,9 @@ require 'includes/review-helper.php';
 
 <main>
     <span id="testAvg"></span>
-    <div class="container" align="center" style="max-width: 800px">
+    <div class="container" align="center" style="max-width: 800px; max-height: 350px">
         <div class="my-auto">
-            <form id="review-form" action="/includes/review-helper.php" method="post">
+            <form id="review-form" action="includes/review-helper.php" method="POST">
                 <div class="container">
                     <i class="fa fa-star fa-2x star-rev" data-index="1"></i>
                     <i class="fa fa-star fa-2x star-rev" data-index="2"></i>
@@ -32,62 +32,62 @@ require 'includes/review-helper.php';
     <span id="review_list"></span>
 </main>
 <script type="text/javascript">
+    var rateIndex = -1;
+    var id = <?php echo $_GET['id'];?>;
 
-var rateIndex = -1;
-var id = <?php echo $_GET['id'];?>
-$(document).ready(function() {
-    reset_star();
-
-    // get reviews
-    xhr_getter('display-reviews.php?id=', "review_list");
-    //avg();
-    xhr_getter('/includes/get-ratings.php?id=', "testAvg");
-
-    if (localStorage.getItem('rating') != null) {
-        setStars(parseInt(localStorage.getItem('rating')));
-    }
-    $('.star-rev').on('click', function() {
-        rateIndex = parseInt($(this).data('index'));
-        localStorage.setItem('rating', rateIndex);
-    });
-    $('.star-rev').mouseover(function() {
-        reset_star();
-        var currIndex = parseInt($(this).data('index'));
-        setStars(currIndex);
-
-    });
-    $('.star-rev').mouseleave(function() {
+    $(document).ready(function() {
         reset_star();
 
-        if (rateIndex != -1) {
-            setStars(rateIndex);
+        // get reviews
+        xhr_getter('display-reviews.php?id=', "review_list");
+        //avg();
+        xhr_getter('includes/get-ratings.php?id=', "testAvg");
+
+        if (localStorage.getItem('rating') != null) {
+            setStars(parseInt(localStorage.getItem('rating')));
         }
-    });
+        $('.star-rev').on('click', function() {
+            rateIndex = parseInt($(this).data('index'));
+            localStorage.setItem('rating', rateIndex);
+        });
+        $('.star-rev').mouseover(function() {
+            reset_star();
+            var currIndex = parseInt($(this).data('index'));
+            setStars(currIndex);
 
+        });
+        $('.star-rev').mouseleave(function() {
+            reset_star();
 
-    function reset_star() {
-        $('.star-rev').css('color', 'grey');
-    }
-
-    function setStars(max){
-        for(var i=0; i < max; i++){
-            $('.star-rev:eq('+i+')').css('color', 'goldenrod');
-        }
-        document.getElementById('rating').value = parseInt(localStorage.getItem('rating'));
-        console.log(id);
-    }
-    //Used to interchangeably send GET requests for review display data. 
-    function xhr_getter(prefix, element){
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function(){
-
-            if(this.readyState == 4 && this.status == 200){
-                document.getElementById(element).innerHTML = this.responseText;
+            if (rateIndex !== -1) {
+                setStars(rateIndex);
             }
-        };
-        url = prefix+id;
-        xhttp.open("GET", url, true);
-        xhttp.send();
-    }
-});
+        });
+
+
+        function reset_star() {
+            $('.star-rev').css('color', 'grey');
+        }
+
+        function setStars(max) {
+            for(var i=0; i < max; i++) {
+                $('.star-rev:eq('+i+')').css('color', 'goldenrod');
+            }
+            document.getElementById('rating').value = parseInt(localStorage.getItem('rating'));
+            console.log(id);
+        }
+
+        //Used to interchangeably send GET requests for review display data.
+        function xhr_getter(prefix, element) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if(this.readyState === 4 && this.status === 200) {
+                    document.getElementById(element).innerHTML = this.responseText;
+                }
+            };
+            url = prefix+id;
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }
+    });
 </script>

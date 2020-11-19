@@ -18,7 +18,7 @@ if (isset($_POST['prof-submit'])) {
 
     $ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
 
-    $allowed = array('jpg', 'jpeg', 'png', 'svg');
+    $allowed = array('jpg', 'jpeg', 'png', 'svg', 'JPG');
 
     if($file_error !== 0){
         header("Location: ../profile.php?error=UploadError");

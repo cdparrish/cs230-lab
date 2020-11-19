@@ -1,6 +1,5 @@
 h1 {
     text-align: center;
-
 }
 
 h3{
@@ -35,7 +34,7 @@ img{
 }
 
 .gallery-container a{
-    background-color: black;
+    background-color: transparent;
     background-position: center;
     background-size: cover;
 }

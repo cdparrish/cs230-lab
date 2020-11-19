@@ -10,11 +10,11 @@ require 'includes/review-helper.php';
         <div class="my-auto">
             <form id="review-form" action="includes/review-helper.php" method="POST">
                 <div class="container">
-                    <i class="fa fa-reddit-alien fa-2x star-rev" data-index="1"></i>
-                    <i class="fa fa-reddit-alien fa-2x star-rev" data-index="2"></i>
-                    <i class="fa fa-reddit-alien fa-2x star-rev" data-index="3"></i>
-                    <i class="fa fa-reddit-alien fa-2x star-rev" data-index="4"></i>
-                    <i class="fa fa-reddit-alien fa-2x star-rev" data-index="5"></i>
+                    <i class="fa fa-reddit-alien fa-2x fa-reddit-alien" data-index="1"></i>
+                    <i class="fa fa-reddit-alien fa-2x fa-reddit-alien" data-index="2"></i>
+                    <i class="fa fa-reddit-alien fa-2x fa-reddit-alien" data-index="3"></i>
+                    <i class="fa fa-reddit-alien fa-2x fa-reddit-alien" data-index="4"></i>
+                    <i class="fa fa-reddit-alien fa-2x fa-reddit-alien" data-index="5"></i>
                 </div>
                 <div class="form-group" style="margin-top: 15px;">
                     <label class="title-label" for="review-title" style="font-size: 16px; font-weight: bold;">Title</label>

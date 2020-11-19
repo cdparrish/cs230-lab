@@ -2,7 +2,7 @@
 require 'includes/header.php'
 ?>
 <main>
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="/css/about.css">
     <div class="bg-cover">
 <div class="about">
     <h1>Our Team</h1>

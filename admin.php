@@ -35,7 +35,7 @@ if (isset($_SESSION['uid'])) {
 
 <?php 
 }else{
-    header("Location: ../login.php?error=Login");
+    header("Location: login.php?error=Login");
     exit();
 }
 ?>

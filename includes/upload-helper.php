@@ -34,7 +34,7 @@ if (isset($_POST['prof-submit'])) {
     }
     else{
         $new_name = uniqid('', true).'.'.$ext;
-        $destination = "../uploads/".$new_name;
+        $destination = "/uploads/".$new_name;
 
         $sql = "UPDATE profile SET picpath=?, bio=? WHERE uname=?";
         $stmt = mysqli_stmt_init($conn);

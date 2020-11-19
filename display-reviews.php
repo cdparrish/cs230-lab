@@ -27,7 +27,7 @@ if(mysqli_num_rows($result) > 0){
         echo '
         <div class="card mx-auto" style="width: 30%; padding: 5px; margin-bottom: 10px;">
             <div class="media">
-                <img class="mr-3" src="'.$picpath['picpath'].'" style="max-width: 75px; max-height: 75px; border-radius: 50%;">\
+                <img class="mr-3" src="'.$picpath['picpath'].'" style="max-width: 75px; max-height: 75px; border-radius: 50%;">
                 <div class="media-body">
                     <h4 class="mt-0">'.$row['uname'].'</h4>
                     <h5 class="mt-0">'.$row['title'].'</h5>

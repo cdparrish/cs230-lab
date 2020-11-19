@@ -4,10 +4,6 @@ require 'includes/header.php'
 <main>
     <link rel="stylesheet" href="css/about.css">
     <div class="bg-cover">
-        <div class="h-20 center-me">
-            <div class="my-auto">
-            </div>
-        </div>
 <div class="about">
     <h1>Our Team</h1>
     <p>Welcome to the greatest team ever crafted. We are here to provide you the greatest user experience in the galaxy.</p>

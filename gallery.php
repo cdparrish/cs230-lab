@@ -1,5 +1,5 @@
 <?php
-require '../cs230-lab/includes/header.php';
+require 'includes/header.php';
 ?>
 
 <main>

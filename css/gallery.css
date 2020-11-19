@@ -7,10 +7,11 @@
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 h3{
-   color: goldenrod;
+   color: springgreen;
 }
 
 p{
@@ -48,7 +49,7 @@ img{
 
 .gallery-container a:hover{
     opacity: 90%;
-    text-decoration-color: springgreen;
+    text-decoration-color: deepskyblue;
 
 }
 body{

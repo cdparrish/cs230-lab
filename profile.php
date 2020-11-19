@@ -56,7 +56,7 @@ require 'includes/dbhandler.php'
 
     <div class="h-100 center-me text-center">
         <div class="my-auto">
-            <form action="../cs230-lab/includes/upload-helper.php" method="POST" enctype="multipart/form-data">
+            <form action="/includes/upload-helper.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <img src="<?php echo $photo;?>" onclick="triggered();" id="prof-display">
                     <label for="prof-image" id="uname-style">

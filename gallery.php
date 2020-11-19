@@ -19,8 +19,8 @@ require 'includes/header.php';
             $result = mysqli_stmt_get_result($stmt);
             while ($row = mysqli_fetch_assoc($result)){
                 echo '<div class="card">
-                    <a href="../cs230-lab/review.php?id='.$row['pid'].'">
-                        <img src="../cs230-lab/products/'.$row["picpath"].'">
+                    <a href="review.php?id='.$row['pid'].'">
+                        <img src="/products/'.$row["picpath"].'">
                         <h3>'.$row["title"].'</h3>
                         <p>'.$row["descript"].'</p>
                     </a>

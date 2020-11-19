@@ -1,6 +1,6 @@
 <?php 
-require '../cs230-lab/includes/header.php';
-require '../cs230-lab/includes/dbhandler.php'
+require 'includes/header.php';
+require 'includes/dbhandler.php'
 ?>
 
 <main>

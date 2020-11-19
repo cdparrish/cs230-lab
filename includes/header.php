@@ -31,7 +31,7 @@ session_start();
                         <a class="nav-link" href="#">Deals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/cs230-lab/about.php">About</a>
+                        <a class="nav-link" href="/cs230-lab/index.php">About</a>
                     </li>
                     <?php
                     if(isset($_SESSION['uid'])){

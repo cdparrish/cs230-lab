@@ -8,7 +8,7 @@ require 'includes/review-helper.php';
     <span id="testAvg"></span>
     <div class="container" align="center" style="max-width: 800px">
         <div class="my-auto">
-            <form id="review-form" action="../cs230-lab/includes/review-helper.php" method="post">
+            <form id="review-form" action="/includes/review-helper.php" method="post">
                 <div class="container">
                     <i class="fa fa-star fa-2x star-rev" data-index="1"></i>
                     <i class="fa fa-star fa-2x star-rev" data-index="2"></i>

@@ -30,7 +30,6 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    color: transparent;
 }
 
 .card {
@@ -40,6 +39,7 @@ img{
     max-width: 280px;
     height: auto;
     padding: 5px;
+    background-color: transparent;
 }
 
 .gallery-container a{

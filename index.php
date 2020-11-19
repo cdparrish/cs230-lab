@@ -3,6 +3,11 @@ require 'includes/header.php'
 ?>
 <main>
     <link rel="stylesheet" href="css/about.css">
+    <div class="bg-cover">
+        <div class="h-20 center-me">
+            <div class="my-auto">
+            </div>
+        </div>
 <div class="about">
     <h1>Our Team</h1>
     <p>Welcome to the greatest team ever crafted. We are here to provide you the greatest user experience in the galaxy.</p>
@@ -15,7 +20,7 @@ require 'includes/header.php'
                 <h2>CEO</h2>
                 <p class="names">Elongated Muskrat</p>
                 <p>Created the FaceBook of electric cars.</p>
-                <button class="button" onclick="window.location.href='https://www.tesla.com/cybertruck';">Reserve Cyb3r Truck</button>
+                <button type="button" class="btn btn-secondary" onclick="window.location.href='https://www.tesla.com/cybertruck';">Reserve Cyb3r Truck</button>
             </div>
         </div>
     </div>
@@ -36,7 +41,7 @@ require 'includes/header.php'
                 <h2>CTO</h2>
                 <p class="names">Jeff Beezos</p>
                 <p>Created the FaceBook of selling books.</p>
-                <button class="button" onclick="window.location.href='https://www.amazon.com';">Personal Indie Company</button>
+                <button type="button" class="btn btn-secondary" onclick="window.location.href='https://www.amazon.com';">Personal Indie Company</button>
             </div>
         </div>
     </div>
@@ -51,4 +56,5 @@ require 'includes/header.php'
         </div>
     </div>
 </div>
+    </div>
 </main>

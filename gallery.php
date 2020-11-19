@@ -4,6 +4,7 @@ require 'includes/header.php';
 
 <main>
 <link rel="stylesheet" href="css/gallery.css">
+    <div class="bg-cover">
     <h1>Gallery</h1>
     <div class="gallery-container">
         <?php
@@ -28,5 +29,6 @@ require 'includes/header.php';
             }
         }
         ?>
+    </div>
     </div>
 </main>

@@ -39,7 +39,8 @@ img{
     max-width: 280px;
     height: auto;
     padding: 5px;
-    background-color: coral;
+    background-color: whitesmoke;
+    opacity: 90%;
 }
 
 .gallery-container a{

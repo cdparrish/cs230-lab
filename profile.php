@@ -15,6 +15,12 @@ require 'includes/dbhandler.php'
         $photo = $row['picpath'];
     ?>
     <style>
+        .bg-cover{
+            background-image: url("/images/space-bg.jpg");
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
         .center-me {
             display: flex;
             justify-content: center;
@@ -54,6 +60,7 @@ require 'includes/dbhandler.php'
         }
     </script>
 
+        <div class="bg-cover">
     <div class="h-100 center-me text-center">
         <div class="my-auto">
             <form action="/includes/upload-helper.php" method="POST" enctype="multipart/form-data">
@@ -73,7 +80,7 @@ require 'includes/dbhandler.php'
             </form>
         </div>
     </div>
-
+        </div>
     <?php
     }else{
         header("Location: login.php");
